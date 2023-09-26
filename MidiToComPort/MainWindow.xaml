@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MidiToComPort"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MidiToComPort" Width="400" SizeToContent="Height" ResizeMode="CanMinimize" Loaded="Window_Loaded" Closed="Window_Closed" WindowStartupLocation="CenterScreen">
+	<StackPanel Margin="5">
+		<DockPanel>
+			<TextBlock Text="MIDI" TextAlignment="Center" VerticalAlignment="Center" Width="50"/>
+			<ComboBox x:Name="midiDeviceCombo" Margin="3"/>
+		</DockPanel>
+		<DockPanel>
+			<TextBlock Text="COM" TextAlignment="Center" VerticalAlignment="Center" Width="50"/>
+			<ComboBox x:Name="comPortCombo" Margin="3"/>
+		</DockPanel>
+		<StackPanel Orientation="Horizontal">
+			<Button Content="接続" Width="100" Margin="3" x:Name="connectButton" Click="ConnectButton_Click"/>
+			<Button Content="切断" Width="100" Margin="3" x:Name="disConnectButton" IsEnabled="False" Click="DisConnectButton_Click"/>
+		</StackPanel>
+	</StackPanel>
 </Window>
