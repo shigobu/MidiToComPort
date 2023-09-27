@@ -6,20 +6,20 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiToComPort", "MidiToComPort\MidiToComPort.csproj", "{D7633475-D3A5-46B5-A315-115A4460561D}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7633475-D3A5-46B5-A315-115A4460561D}.Debug|x86.ActiveCfg = Debug|x86
-		{D7633475-D3A5-46B5-A315-115A4460561D}.Debug|x86.Build.0 = Debug|x86
-		{D7633475-D3A5-46B5-A315-115A4460561D}.Release|x86.ActiveCfg = Release|x86
-		{D7633475-D3A5-46B5-A315-115A4460561D}.Release|x86.Build.0 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AA2625E3-730C-42A1-BBBA-1E7DAAA21C12}
-	EndGlobalSection
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|x86 = Debug|x86
+        Release|x86 = Release|x86
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {D7633475-D3A5-46B5-A315-115A4460561D}.Debug|x86.ActiveCfg = Debug|x86
+        {D7633475-D3A5-46B5-A315-115A4460561D}.Debug|x86.Build.0 = Debug|x86
+        {D7633475-D3A5-46B5-A315-115A4460561D}.Release|x86.ActiveCfg = Release|x86
+        {D7633475-D3A5-46B5-A315-115A4460561D}.Release|x86.Build.0 = Release|x86
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+    GlobalSection(ExtensibilityGlobals) = postSolution
+        SolutionGuid = {AA2625E3-730C-42A1-BBBA-1E7DAAA21C12}
+    EndGlobalSection
 EndGlobal
